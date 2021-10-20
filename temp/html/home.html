@@ -1,0 +1,576 @@
+{{ define "home_page"}}
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/static/css/iconsfont.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="shortcut icon" href="/static/image/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,160&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>SAOM | Главная</title>
+</head>
+
+<body>
+<div id="load" class="load">
+    <div class="intro">
+
+
+        <p id="example3"></p>
+
+    </div>
+</div>
+
+
+{{ if . }}
+
+<style >
+    body{
+        background: url(/static/image/bg_intro.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+</style>
+
+<div class="nav_menu">
+    <!--Вызов меню play-->
+    <div class="launch_one" >
+        <img src="/static/image/play.png" class="play_image" id="start_one">
+        <h1 class="alert_launch" id="alert_launch">alert</h1>
+        <h1 class="info_launch" id="info_launch">Желаете ли вы скачать лаунчер?</h1>
+
+        <a href="https://saom.online/launcher/rao.zip" target="_blank"><img onmouseover="this.src='/static/image/ok_hover_one.png'"
+                                                                            onmouseout="this.src='/static/image/ok_normal_one.png'" src="/static/image/ok_normal_one.png" alt="" class="accept_btn" id="accept_launch"></a>
+        <img onmouseover="this.src='/static/image/cancel_hover.png'"
+             onmouseout="this.src='/static/image/cancel_normal.png'" src="/static/image/cancel_normal.png" alt="" class="cancel_btn" id="cancel_launch">
+    </div>
+    <!--Скачивание java-->
+    <div class="launch_two">
+        <img src="/static/image/message_java.png" class="play_image_java" id="start_java">
+        <h1 class="alert_java" id="alert_java">alert</h1>
+        <h1 class="info_java" id="info_java">Желаете ли вы установить java?</h1>
+
+        <a href="https://saom.online/launcher/jre-8u51-windows-x64.exe" target="_blank"><img onmouseover="this.src='/static/image/ok_hover.png'"
+                                                                                             onmouseout="this.src='/static/image/ok_normal.png'" src="/static/image/ok_normal.png" alt="" class="accept_btn_java" id="accept_launch_java"></a>
+        <img onmouseover="this.src='/static/image/cancel_hover_java.png'"
+             onmouseout="this.src='/static/image/cancel_normal_java.png'" src="/static/image/cancel_normal_java.png" alt="" class="cancel_btn_java" id="cancel_launch_java">
+    </div>
+    <!--Данная система в разработке-->
+    <div class="launch_three">
+        <img src="/static/image/message_develop.png" class="play_image_develop" id="start_develop">
+        <h1 class="alert_develop" id="alert_develop">alert</h1>
+        <h1 class="info_develop" id="info_develop">Данная система в разработке!</h1>
+
+        <img onmouseover="this.src='/static/image/cancel_hover_develop.png'"
+             onmouseout="this.src='/static/image/cancel_normal_develop.png'" src="/static/image/cancel_normal_develop.png" alt="" class="cancel_btn_develop" id="cancel_launch_develop"></a>
+    </div>
+    <!--Разработчики сайта-->
+    <div class="launch_develop">
+        <img src="/static/image/dw.png" class="play_image_dw" id="develop_sites">
+        <h1 class="alert_develop_sites" id="alert_develop_sites">alert</h1>
+        <a href="https://vk.com/goldenfx" target="_blank"><h1 class="aka_kuzya" id="dw_one">Developer - .shot</h1></a>
+        <a href="https://vk.com/xaxaxaxareincarnation" target="_blank"><h1 class="aka_choi" id="dw_two">Developer - .re-incarnation</h1></a>
+
+        <img onmouseover="this.src='/static/image/cancel_hover_dw.png'"
+             onmouseout="this.src='/static/image/cancel_normal_dw.png'" src="/static/image/cancel_normal_dw.png" class="dw" id="dw"></a>
+    </div>
+    <!--Выход из аккаунта-->
+    <div class="launch_logout">
+        <img src="/static/image/logout.png" class="play_image_logout" id="logout_block">
+        <h1 class="alert_logout" id="alert_logout">alert</h1>
+        <h1 class="info_logout" id="info_logout">Вы действительно хотите выйти?</h1>
+
+        <img onmouseover="this.src='/static/image/ok_hover_logout.png'"
+             onmouseout="this.src='/static/image/ok_normal_logout.png'" src="/static/image/ok_normal_logout.png" class="accept_logout" id="accept_logout"></a>
+        <img onmouseover="this.src='/static/image/cancel_hover_logout.png'"
+             onmouseout="this.src='/static/image/cancel_normal_logout.png'" src="/static/image/cancel_normal_logout.png" class="cancel_logout" id="cancel_logout"></a>
+    </div>
+    <!--Соообщения-->
+    <div class="launch_logout">
+        <img src="/static/image/message 1.png" class="play_image_message" id="message_block">
+        <h1 class="alert_message" id="alert_message">alert</h1>
+        <h1 class="info_message" id="info_message">Система сообщений в разработке!</h1>
+
+        <img onmouseover="this.src='/static/image/ok_hover_message.png'"
+             onmouseout="this.src='/static/image/ok_normal_message.png'" src="/static/image/ok_normal_message.png" class="accept_message" id="accept_message"></a>
+        <img onmouseover="this.src='/static/image/cancel_hover_message.png'"
+             onmouseout="this.src='/static/image/cancel_normal_message.png'" src="/static/image/cancel_normal_message.png" class="cancel_message" id="cancel_message"></a>
+    </div>
+
+    <!--Начало работы меню-->
+    <div class="container" id="container">
+        <div class="menu">
+
+            <!--Hover effect user use mouse and out-->
+
+            <a class="btn_one"  id="btn_one">
+                <img onmouseover="this.src='/static/image/user_hover.png'"
+                     onmouseout="this.src='/static/image/user.png'" src="/static/image/user.png" alt=""></a>
+
+
+            <!--Left open panel-->
+            <a id="panelo">
+                <img class="left_panel" src="/static/image/panel 1.png">
+                <h1 class="NickName">{{ . }}</h1>
+                <h1 class="site_develop">Спасибо за участие в бета-тестировании сайта,<br> некоторые функции могут не работать,<br> в скорем времени сделаем.</h1>
+
+                <img class="info" src="/static/image/info 1.png" alt="">
+
+                <div class="stats">
+                    <img src="/static/image/help_hover 2.png" class="help_two" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_three" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_four" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_five" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_six" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_seven" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_eight" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_nine" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_ten" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_eleven" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_twelve" title="В разработке">
+                    <img src="/static/image/help_hover 2.png" class="help_thirteen" title="В разработке">
+                </div>
+            </a>
+
+
+            <!--Right open panel-->
+            <img class="right_panel" id="panelt" src="/static/image/indicator 1.png" alt="">
+            <!--slide-->
+            <div class="slide" id="panelth">
+
+                <div id="play">
+                    <img id="launch" class="play" onmouseover="this.src='/static/image/list_hover 1.png'"
+                         onmouseout="this.src='/static/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+                </div>
+
+                <div>
+                    <img onmouseover="this.src='/static/image/list_hover_equipment.png'"
+                         onmouseout="this.src='/static/image/list_normal_equipment.png'" src="/static/image/list_normal_equipment.png" alt=""><br>
+                </div>
+
+                <div>
+                    <img onmouseover="this.src='/static/image/list_hover_skills.png'"
+                         onmouseout="this.src='/static/image/list_normal_skills.png'" src="/static/image/list_normal_skills.png" alt=""><br>
+                </div>
+
+            </div>
+
+
+
+
+            <!--hover effects party use mouse and out-->
+            <a class="btn_two"  id="btn_two"><img onmouseover="this.src='/static/image/party_hover.png'"
+                                                  onmouseout="this.src='/static/image/party.png'" src="/static/image/party.png" alt=""></a>
+
+            <!--slide-->
+            <img class="indicator_one" id="indicator" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party" id="slide">
+                <img onmouseover="this.src='/static/image/list_hover 1.png'"
+                     onmouseout="this.src='/static/image/list_normal 1.png'" src="/static/image/list_normal 1.png" alt=""><br>
+
+                <img onmouseover="this.src='/static/image/list_hover 2.png'"
+                     onmouseout="this.src='/static/image/list_normal 2.png'" src="/static/image/list_normal 2.png" alt=""><br>
+
+                <img onmouseover="this.src='/static/image/list_hover 3.png'"
+                     onmouseout="this.src='/static/image/list_normal 3.png'" src="/static/image/list_normal 3.png" alt=""><br>
+            </div>
+
+
+            <!--Hover effects message use mouse and out-->
+            <a class="btn_three" id="btn_three"><img onmouseover="this.src='/static/image/message_hover.png'"
+                                                     onmouseout="this.src='/static/image/message.png'" src="/static/image/message.png" alt=""></a>
+
+            <div class="message" id="container_message">
+                <!--Open panel message chat-->
+
+                <!--Here button accept or close-->
+                <a class="btn_accept" id="accept"> <img onmouseover="this.src='/static/image/.png'"
+                                                        onmouseout="this.src='/static/image/.png'" src="/static/image/.png" alt=""></a>
+                <a class="btn_close" id="close"><img onmouseover="this.src='/static/image/.png'"
+                                                     onmouseout="this.src='/static/image/.png'" src="/static/image/.png" alt=""></a>
+            </div>
+
+            <!--Hover effects map use mouse and out-->
+            <a class="btn_thour" id="btn_four"><img onmouseover="this.src='/static/image/map_hover.png'"
+                                                    onmouseout="this.src='/static/image/map.png'" src="/static/image/map.png" alt=""></a>
+
+            <!--Open map-->
+            <!--slide-->
+            <img class="indicator_two" id="indicatort" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party_one" id="slideo">
+                <img onmouseover="this.src='/static/image/list_hover_search.png'"
+                     onmouseout="this.src='/static/image/list_normal_search.png'" src="/static/image/list_normal_search.png" alt=""><br>
+
+                <img onmouseover="this.src='/static/image/list_hover_favourite.png'"
+                     onmouseout="this.src='/static/image/list_normal_favourite.png'" src="/static/image/list_normal_favourite.png" alt=""><br>
+
+                <img onmouseover="this.src='/static/image/list_hover_run.png'"
+                     onmouseout="this.src='/static/image/list_normal_run.png'" src="/static/image/list_normal_run.png" alt=""><br>
+            </div>
+
+            <!--Hover effects settings use mouse and out-->
+            <a class="btn_five" id="btn_five"><img onmouseover="this.src='/static/image/settings_hover.png'"
+                                                   onmouseout="this.src='/static/image/settings.png'" src="/static/image/settings.png" alt=""></a>
+
+            <!--Open panel settings-->
+            <!--slide-->
+            <img class="indicator_three" id="indicatorth" src="/static/image/indicator 1.png" alt="">
+            <!--Open party panel-->
+            <div class="slide_party_three" id="slideth">
+                <img onmouseover="this.src='/static/image/list_hover_settings.png'"
+                     onmouseout="this.src='/static/image/list_normal_settings.png'" src="/static/image/list_normal_settings.png" alt=""><br>
+
+                <img onmouseover="this.src='/static/image/list_hover_dw.png'"
+                     onmouseout="this.src='/static/image/list_normal_dw.png'" src="/static/image/list_normal_dw.png" alt="" id="dew"><br>
+
+                <img onmouseover="this.src='/static/image/list_hover_logout.png'"
+                     onmouseout="this.src='/static/image/list_normal_logout.png'" src="/static/image/list_normal_logout.png" alt="" id="logout"><br>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script lang="JavaScript">
+
+    document.addEventListener('keyup', function(){
+        if (event.keyCode == 36){
+            $("#container").stop().toggle();
+            $('#btn_one').on('click',() => {
+                $('#panelo').stop().toggle();
+                $('#panelt').stop().toggle();
+                $('#panelth').stop().toggle();
+
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#indicatorth').hide();
+                $('#slideth').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                return false;
+            });
+
+
+            $('#link_reg').on('click',() => {
+                $('#block_one').show();
+                $('#block_two').hide();
+            });
+
+            $('#link_auth').on('click',() => {
+                $('#block_two').show();
+                $('#block_one').hide();
+            });
+
+            $('#btn_two').on('click',() => {
+                $('#indicator').stop().toggle();
+                $('#slide').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                $('#indicatorth').hide();
+                $('#slideth').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                return false;
+            });
+            $('#btn_three').on('click',() => {
+                $('#container_message').stop().toggle();
+                $('#accept').stop().toggle();
+                $('#close').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                $('#indicatorth').hide();
+                $('#slideth').hide();
+                return false;
+            });
+            $('#btn_four').on('click',() => {
+                $('#slideo').stop().toggle();
+                $('#indicatort').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                $('#indicatorth').hide();
+                $('#slideth').hide();
+                return false;
+            });
+            $('#btn_five').on('click',() => {
+                $('#indicatorth').stop().toggle();
+                $('#slideth').stop().toggle();
+
+                $('#panelo').hide();
+                $('#panelt').hide();
+                $('#panelth').hide();
+                $('#indicator').hide();
+                $('#slide').hide();
+                $('#container_message').hide();
+                $('#accept').hide();
+                $('#close').hide();
+                $('#slideo').hide();
+                $('#indicatort').hide();
+                return false;
+            });
+
+
+
+            window.addEventListener('mousemove', function(e) {
+                var x = e.clientX / window.innerWidth;
+                var y = e.clientY / window.innerHeight;
+                $("#container").css('transform', 'translate(-' + x * 100 + 'px, -' + y * 100 + 'px)');
+            });
+        }
+    });
+
+    $(document).ready(function(){ //дожидаемся загрузки страницы
+        $('#link_reg').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#block_one').show();//включает/выключает элемент id="text"
+            $('#block_two').hide();
+        });
+
+        $('#link_auth').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#block_one').hide();//включает/выключает элемент id="text"
+            $('#block_two').show();
+        });
+        /*play*/
+        $('#launch').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#start_one').show();//включает/выключает элемент id="text"
+            $('#info_launch').show();//включает/выключает элемент id="text"
+            $('#alert_launch').show();//включает/выключает элемент id="text"
+            $('#accept_launch').show();//включает/выключает элемент id="text"
+            $('#cancel_launch').show();//включает/выключает элемент id="text"
+        });
+
+        $('#cancel_launch').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#start_one').hide();//включает/выключает элемент id="text"
+            $('#info_launch').hide();//включает/выключает элемент id="text"
+            $('#alert_launch').hide();//включает/выключает элемент id="text"
+            $('#accept_launch').hide();//включает/выключает элемент id="text"
+            $('#cancel_launch').hide();//включает/выключает элемент id="text"
+
+            $('#start_java').show();//включает/выключает элемент id="text"
+            $('#alert_java').show();//включает/выключает элемент id="text"
+            $('#info_java').show();//включает/выключает элемент id="text"
+            $('#accept_launch_java').show();//включает/выключает элемент id="text"
+            $('#cancel_launch_java').show();//включает/выключает элемент id="text"
+        });
+
+        $('#accept_launch').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#start_java').show();//включает/выключает элемент id="text"
+            $('#alert_java').show();//включает/выключает элемент id="text"
+            $('#info_java').show();//включает/выключает элемент id="text"
+            $('#accept_launch_java').show();//включает/выключает элемент id="text"
+            $('#cancel_launch_java').show();//включает/выключает элемент id="text"
+
+            $('#start_one').hide();//включает/выключает элемент id="text"
+            $('#alert_launch').hide();//включает/выключает элемент id="text"
+            $('#info_launch').hide();//включает/выключает элемент id="text"
+            $('#accept_launch').hide();//включает/выключает элемент id="text"
+            $('#cancel_launch').hide();//включает/выключает элемент id="text"
+        });
+
+        $('#accept_launch_java').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#alert_develop').show();//включает/выключает элемент id="text"
+            $('#start_develop').show();//включает/выключает элемент id="text"
+            $('#info_develop').show();//включает/выключает элемент id="text"
+            $('#cancel_launch_develop').show();//включает/выключает элемент id="text"
+
+            $('#start_java').hide();//включает/выключает элемент id="text"
+            $('#alert_java').hide();//включает/выключает элемент id="text"
+            $('#info_java').hide();//включает/выключает элемент id="text"
+            $('#accept_launch_java').hide();//включает/выключает элемент id="text"
+            $('#cancel_launch_java').hide();//включает/выключает элемент id="text"
+        });
+
+        $('#cancel_launch_java').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#alert_develop').show();//включает/выключает элемент id="text"
+            $('#start_develop').show();//включает/выключает элемент id="text"
+            $('#info_develop').show();//включает/выключает элемент id="text"
+            $('#cancel_launch_develop').show();//включает/выключает элемент id="text"
+
+            $('#start_java').hide();//включает/выключает элемент id="text"
+            $('#alert_java').hide();//включает/выключает элемент id="text"
+            $('#info_java').hide();//включает/выключает элемент id="text"
+            $('#accept_launch_java').hide();//включает/выключает элемент id="text"
+            $('#cancel_launch_java').hide();//включает/выключает элемент id="text"
+        });
+
+        $('#cancel_launch_develop').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#alert_develop').hide();//включает/выключает элемент id="text"
+            $('#info_develop').hide();//включает/выключает элемент id="text"
+            $('#start_develop').hide();//включает/выключает элемент id="text"
+            $('#cancel_launch_develop').hide();//включает/выключает элемент id="text"
+        });
+
+        $('#dew').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#develop_sites').show();//включает/выключает элемент id="text"
+            $('#alert_develop_sites').show();//включает/выключает элемент id="text"
+            $('#dw_one').show();//включает/выключает элемент id="text"
+            $('#dw_two').show();//включает/выключает элемент id="text"
+            $('#dw').show();//включает/выключает элемент id="text"
+        });
+        $('#dw').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#develop_sites').hide();//включает/выключает элемент id="text"
+            $('#alert_develop_sites').hide();//включает/выключает элемент id="text"
+            $('#dw_one').hide();//включает/выключает элемент id="text"
+            $('#dw_two').hide();//включает/выключает элемент id="text"
+            $('#dw').hide();//включает/выключает элемент id="text"
+        });
+
+        $('#logout').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#logout_block').show();//включает/выключает элемент id="text"
+            $('#alert_logout').show();//включает/выключает элемент id="text"
+            $('#info_logout').show();//включает/выключает элемент id="text"
+            $('#accept_logout').show();//включает/выключает элемент id="text"
+            $('#cancel_logout').show();//включает/выключает элемент id="text"
+        });
+        $('#accept_logout').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#logout_block').hide();//включает/выключает элемент id="text"
+            $('#alert_logout').hide();//включает/выключает элемент id="text"
+            $('#info_logout').hide();//включает/выключает элемент id="text"
+            $('#accept_logout').hide();//включает/выключает элемент id="text"
+            $('#cancel_logout').hide();//включает/выключает элемент id="text"
+        });
+        $('#cancel_logout').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#logout_block').hide();//включает/выключает элемент id="text"
+            $('#alert_logout').hide();//включает/выключает элемент id="text"
+            $('#info_logout').hide();//включает/выключает элемент id="text"
+            $('#accept_logout').hide();//включает/выключает элемент id="text"
+            $('#cancel_logout').hide();//включает/выключает элемент id="text"
+        });
+        $('#logout').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#develop_sites').hide();//включает/выключает элемент id="text"
+            $('#alert_develop_sites').hide();//включает/выключает элемент id="text"
+            $('#dw_one').hide();//включает/выключает элемент id="text"
+            $('#dw_two').hide();//включает/выключает элемент id="text"
+            $('#dw').hide();//включает/выключает элемент id="text"
+        });
+        $('#dew').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#logout_block').hide();//включает/выключает элемент id="text"
+            $('#alert_logout').hide();//включает/выключает элемент id="text"
+            $('#info_logout').hide();//включает/выключает элемент id="text"
+            $('#accept_logout').hide();//включает/выключает элемент id="text"
+            $('#cancel_logout').hide();//включает/выключает элемент id="text"
+        });
+        $('#btn_three').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#message_block').show();//включает/выключает элемент id="text"
+            $('#alert_message').show();//включает/выключает элемент id="text"
+            $('#info_message').show();//включает/выключает элемент id="text"
+            $('#accept_message').show();//включает/выключает элемент id="text"
+            $('#cancel_message').show();//включает/выключает элемент id="text"
+        });
+        $('#accept_message').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#message_block').hide();//включает/выключает элемент id="text"
+            $('#alert_message').hide();//включает/выключает элемент id="text"
+            $('#info_message').hide();//включает/выключает элемент id="text"
+            $('#accept_message').hide();//включает/выключает элемент id="text"
+            $('#cancel_message').hide();//включает/выключает элемент id="text"
+        });
+        $('#cancel_message').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#message_block').hide();//включает/выключает элемент id="text"
+            $('#alert_message').hide();//включает/выключает элемент id="text"
+            $('#info_message').hide();//включает/выключает элемент id="text"
+            $('#accept_message').hide();//включает/выключает элемент id="text"
+            $('#cancel_message').hide();//включает/выключает элемент id="text"
+        });
+    });
+</script>
+
+
+<script src="/static/js/jquery-3.6.0.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+<script src="/static/js/script.js" type="text/javascript"></script>
+
+
+{{ else }}
+
+
+<!--Register-->
+<form action="/reg">
+
+    <div class="block_one" id="block_one">
+        <h1 class="info_register">Registration_::</h1>
+
+        <h1 class="info_two">If you registration,<br>u accept our rules,<br>and require your<br> personal information<br> to our system.</h1>
+
+        <div class="input_login">
+            <h1 class="point_login">:login</h1>
+            <input type="text" placeholder=":input login" name="login">
+        </div>
+
+        <div class="input_email">
+            <h1 class="point_email">:email</h1>
+            <input type="text" placeholder=":input email" name="email">
+        </div>
+
+        <div class="input_password">
+            <h1 class="point_password">:password</h1>
+            <input type="text" placeholder=":input password" name="password">
+        </div>
+
+        <div class="input_repassword">
+            <h1 class="point_repassword">:repeat password</h1>
+            <input type="text" placeholder=":input repassword" name="repassword">
+        </div>
+
+        <a href="#" class="have_account" id="link_auth">Have an account?</a>
+
+        <button class="bn36378">Submit</button>
+    </div>
+
+</form>
+
+<!--Join-->
+<form action="/auth">
+    <div class="block_two" id="block_two">
+        <h1 class="info_join">Log in_::</h1>
+
+        <div class="input_account">
+            <h1 class="point_account">:account</h1>
+            <input type="text" placeholder=":input account" name="login">
+        </div>
+
+        <div class="input_passwordd">
+            <h1 class="point_passwordd">:password</h1>
+            <input type="text" placeholder=":input passwordd" name="password">
+        </div>
+
+        <a href="#block_one" class="dont_account" id="link_reg">Don't have an account?</a>
+
+        <button class="bn3637">Submit</button>
+    </div>
+</form>
+<script src="/static/js/jquery-3.6.0.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+<script src="/static/js/script.js" type="text/javascript"></script>
+
+{{ end }}
+
+<script src="/static/js/jquery-3.6.0.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+<script src="/static/js/script.js" type="text/javascript"></script>
+</body>
+</html>
+{{ end }}

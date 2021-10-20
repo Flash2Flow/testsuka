@@ -1,0 +1,1556 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  background-color: #E5E5E5;
+}
+
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.container{
+  width: 1550px;
+  margin: 0 auto;
+display: none;
+    z-index: 2;
+
+}
+
+@keyframes showNekit {
+
+from {margin-top:-100%;}
+
+to {margin-top:0;}
+
+}
+
+
+
+
+/*btn*/
+
+.btn_one{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 240px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.9s;
+
+   z-index: 1;
+}
+
+.info{
+  position: absolute;
+    top: 120px;
+    left: 498px;
+
+    transform: perspective(500px) rotateY(
+10deg);
+}
+
+
+
+
+.slide{
+  position: absolute;
+      margin-left: 820px;
+      margin-top: 201px;
+
+      transform: perspective(500px) rotateY(-10deg);
+
+transition: 1s;
+}
+
+.game_start{
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+
+  transform: perspective(500px) rotateY(-10deg);
+}
+
+
+.slide_party{
+  position: absolute;
+    top: 271px;
+    left: 822px;
+
+    transform: perspective(500px) rotateY(-10deg);
+
+transition: 1s;
+}
+
+.indicator_two{
+  position: absolute;
+    top: 414px;
+    left: 820px;
+}
+
+.slide_party_one{
+  position: absolute;
+    top: 410px;
+    left: 822px;
+
+    transform: perspective(500px) rotateY(-10deg);
+
+transition: 1s;
+}
+
+.indicator_one{
+  position: absolute;
+top: 275px;
+left: 820px
+}
+
+.btn_accept{
+  position: absolute;
+top: 178px;
+right: 1530px;
+}
+
+#panel{
+  display: none;
+}
+
+#panelo{
+  display: none;
+}
+
+#panel2o{
+    display: none;
+}
+
+#panelt{
+  display: none;
+}
+
+panelt:target{
+  display: flex;
+}
+
+#panelth{
+  display: none;
+}
+
+#indicator{
+  display: none;
+}
+
+#slide{
+  display: none;
+}
+
+#_message{
+  display: none;
+}
+
+#accept{
+
+}
+
+#close{
+  display: none;
+}
+
+#slideo{
+  display: none;
+}
+
+#indicatort{
+  display: none;
+}
+
+#indicatorth{
+  display: none;
+}
+
+#slideth{
+  display: none;
+}
+
+#cancel_launch{
+  display: none;
+}
+
+#accept_launch{
+  display: none;
+}
+
+#cancel_launch_java{
+  display: none;
+}
+
+#accept_launch_java{
+  display: none;
+}
+
+#cancel_launch_develop{
+  display: none;
+}
+
+#info_launch{
+  display: none;
+}
+
+#info_java{
+  display: none;
+}
+
+#info_develop{
+  display: none;
+}
+
+#alert_launch{
+  display: none;
+}
+
+#alert_java{
+  display: none;
+}
+
+#alert_develop{
+  display: none;
+}
+
+#alert_develop_sites{
+  display: none;
+}
+
+#dw_one{
+  display: none;
+}
+
+#dw_two{
+  display: none;
+}
+
+#dw{
+  display: none;
+}
+
+#alert_logout{
+  display: none;
+}
+
+#info_logout{
+  display: none;
+}
+
+#accept_logout{
+  display: none;
+}
+
+#cancel_logout{
+  display: none;
+}
+
+#alert_message{
+  display: none;
+}
+
+#info_message{
+  display: none;
+}
+
+#cancel_message{
+  display: none;
+}
+
+#accept_message{
+  display: none;
+}
+
+.indicator_three{
+  position: absolute;
+  top: 485px;
+  left: 820px;
+}
+
+.slide_party_three{
+  position: absolute;
+      top: 481px;
+      left: 822px;
+
+      transform: perspective(500px) rotateY(-10deg);
+
+      transition: 1s;
+}
+
+.message{
+  display: none;
+}
+
+.btn_close{
+  position: absolute;
+  top: 178px;
+  right: 1340px;
+}
+
+.right_panel{
+  position: absolute;
+  top: 204px;
+  left: 816px;
+}
+
+.left_panel{
+  position: absolute;
+  margin-left: 470px;
+margin-top: 55px;
+
+transform: perspective(500px) rotateY(10deg);
+
+          transition: 1s;
+
+
+}
+
+
+
+.site_develop{
+  font-family: 'Raleway',sans-serif;
+font-size: 9.5px;
+position: absolute;
+top: 390px;
+left: 480px;
+transform: perspective(500px) rotateY(
+19deg) rotateZ(
+358deg);
+}
+
+/*stats*/
+.stats{
+
+}
+
+.help_two{
+  position: absolute;
+  left: 499px;
+    top: 209px;
+}
+
+.help_three{
+  position: absolute;
+    left: 504px;
+    top: 178px;
+}
+
+.help_four{
+
+  position: absolute;
+    left: 520px;
+    top: 152px;
+}
+
+.help_five{
+  position: absolute;
+    left: 588px;
+    top: 122px;
+}
+
+.help_six{
+  position: absolute;
+    left: 671px;
+    top: 209px;
+}
+
+.help_seven{
+  position: absolute;
+    left: 666px;
+    top: 180px;
+}
+
+.help_eight{
+  position: absolute;
+    left: 504px;
+    top: 240px;
+}
+
+.help_nine{
+  position: absolute;
+    left: 520px;
+    top: 267px;
+}
+
+.help_ten{
+  position: absolute;
+left: 652px;
+top: 154px;
+}
+
+.help_eleven{
+  position: absolute;
+left: 588px;
+top: 296px;
+}
+
+.help_twelve{
+  position: absolute;
+      left: 666px;
+      top: 238px;
+}
+
+.help_thirteen{
+  position: absolute;
+      left: 652px;
+      top: 264px;
+}
+/*launch*/
+.play_image{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_launch{
+  position: absolute;
+      top: 275px;
+      color: grey;
+      left: 825px;
+      z-index: 100;
+      font-size: 25px;
+      font-family: 'Raleway',sans-serif;
+      text-transform: uppercase;
+
+      -webkit-animation: center 1s;
+}
+
+.info_launch{
+  position: absolute;
+    top: 360px;
+    left: 739px;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    z-index: 100;
+
+      -webkit-animation: center 1s;
+}
+
+.cancel_btn{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 425px;
+    left: 950px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_btn{
+  z-index: 100;
+    position: absolute;
+    top: 425px;
+  left: 740px;
+
+    -webkit-animation: center 1s;
+}
+
+
+/*java*/
+.play_image_java{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_java{
+  position: absolute;
+      top: 275px;
+      color: grey;
+      left: 825px;
+      z-index: 100;
+      font-size: 25px;
+      font-family: 'Raleway',sans-serif;
+      text-transform: uppercase;
+
+      -webkit-animation: center 1s;
+}
+
+.info_java{
+  position: absolute;
+    top: 360px;
+    left: 743px;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    z-index: 100;
+
+      -webkit-animation: center 1s;
+}
+
+
+.cancel_btn_java{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 425px;
+  left: 950px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_btn_java{
+  z-index: 100;
+    position: absolute;
+    top: 425px;
+    left: 740px;
+
+    -webkit-animation: center 1s;
+}
+
+
+/*develop*/
+.play_image_develop{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_develop{
+  position: absolute;
+    top: 275px;
+    color: grey;
+    left: 825px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+
+    -webkit-animation: center 1s;
+}
+
+.info_develop{
+  position: absolute;
+    top: 360px;
+    left: 750px;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    z-index: 100;
+
+      -webkit-animation: center 1s;
+}
+
+.cancel_btn_develop{
+  position: absolute;
+      z-index: 100;
+      position: absolute;
+      top: 425px;
+          left: 845px;
+      -webkit-animation: center 1s;
+}
+
+/*develop sites*/
+
+.play_image_dw{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_develop_sites{
+  position: absolute;
+    top: 275px;
+    color: grey;
+    left: 825px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+
+    -webkit-animation: center 1s;
+}
+
+.dw{
+  position: absolute;
+      z-index: 100;
+      position: absolute;
+      top: 425px;
+          left: 845px;
+      -webkit-animation: center 1s;
+}
+
+a{
+  text-decoration: none;
+}
+
+.aka_kuzya{
+  position: absolute;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    top: 350px;
+    left: 800px;
+    z-index: 100;
+    transition: 0.3s;
+
+    -webkit-animation: center 1s;
+}
+
+.aka_kuzya:hover{
+  transition: 0.3s;
+  color: #4c6dd8
+}
+
+.aka_choi:hover{
+  transition: 0.3s;
+  color: #4c6dd8
+}
+
+
+.aka_choi{
+  position: absolute;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    top: 370px;
+    left: 766px;
+    z-index: 100;
+
+    -webkit-animation: center 1s;
+}
+
+/*logout*/
+.play_image_logout{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_logout{
+  position: absolute;
+      top: 275px;
+      color: grey;
+      left: 825px;
+      z-index: 100;
+      font-size: 25px;
+      font-family: 'Raleway',sans-serif;
+      text-transform: uppercase;
+
+      -webkit-animation: center 1s;
+}
+
+.info_logout{
+  position: absolute;
+    top: 360px;
+    left: 739px;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    z-index: 100;
+
+      -webkit-animation: center 1s;
+}
+
+.cancel_logout{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 425px;
+    left: 950px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_logout{
+  z-index: 100;
+    position: absolute;
+    top: 425px;
+  left: 740px;
+
+    -webkit-animation: center 1s;
+}
+
+/*Сообщения*/
+.play_image_message{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 250px;
+    left: 690px;
+}
+
+.alert_message{
+  position: absolute;
+      top: 275px;
+      color: grey;
+      left: 825px;
+      z-index: 100;
+      font-size: 25px;
+      font-family: 'Raleway',sans-serif;
+      text-transform: uppercase;
+
+      -webkit-animation: center 1s;
+}
+
+.info_message{
+  position: absolute;
+    top: 360px;
+    left: 739px;
+    font-size: 15px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: bold;
+    z-index: 100;
+
+      -webkit-animation: center 1s;
+}
+
+.cancel_message{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 425px;
+    left: 950px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_message{
+  z-index: 100;
+    position: absolute;
+    top: 425px;
+  left: 740px;
+
+    -webkit-animation: center 1s;
+}
+
+
+.NickName{
+  font-size: 15px;
+font-family: 'Roboto', sans-serif;
+color: black;
+position: absolute;
+left: 550px;
+top: 73px;
+transform: perspective(500px) rotateY(
+15deg) rotateX(
+15deg) rotateZ(
+4deg);
+transition: 1s;
+}
+
+.btn_two{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 310px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.8s;
+
+   z-index: 1;
+}
+
+
+.btn_three{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 380px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.7s;
+
+   z-index: 1;
+}
+
+
+
+.btn_thour{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 450px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.6s;
+
+   z-index: 1;
+}
+
+
+.btn_five{
+   width: 64px;
+   height: 64px;
+
+   position: absolute;
+
+   top: 520px;
+   right: 0;
+   left: 0;
+
+   margin: auto;
+   background-color: none;
+
+   transition: .2s linear;
+
+   cursor: pointer;
+   animation: showNekit 0.5s;
+
+   z-index: 1;
+}
+
+p{
+  margin: 15px;
+  padding: 15px;
+}
+
+.load{
+  margin: 0;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#load div{
+
+  text-align:center;
+}
+
+#load div p{
+  text-align: center;
+  padding: 10px;
+    color:black;
+}
+
+.intro{
+
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300px;
+  margin-top: 300px;
+}
+
+/*Register*/
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.block_one{
+  display: none;
+  position: absolute;
+  width: 418px;
+height: 350px;
+
+  top: 200px;
+  left: 630px;
+  z-index: 10;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(111.39deg, #337DD8 16.96%, rgba(51, 125, 216, 0.5) 77.18%);
+border-radius: 19px;
+ -webkit-animation: center 1s;
+}
+
+@-webkit-keyframes center {
+0% {
+transform: scale(1, 0);
+}
+
+}
+
+.info_register{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-left: 35px;
+  }
+
+.info_two{
+  position: absolute;
+width: 140px;
+height: 90px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+margin-top: 56px;
+    margin-left: 35px;
+}
+
+input{
+  border: none;
+  border-radius: 8px;
+  width: 133px;
+  height: 22px;
+  outline: none;
+}
+
+.input_login{
+  position: absolute;
+  top: 84px;
+  left: 240px;
+}
+
+.point_login{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.input_email{
+  position: absolute;
+  top: 138px;
+  left: 240px;
+}
+
+.point_email{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.input_password{
+  position: absolute;
+  top: 192px;
+  left: 240px;
+}
+
+.point_password{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.input_repassword{
+  position: absolute;
+  top: 245px;
+  left: 240px;
+}
+
+.point_repassword{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.have_account{
+  position: absolute;
+width: 158px;
+height: 15px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+margin-left: 235px;
+margin-top: 250px;
+
+text-decoration: none;
+}
+
+.bn36378{
+margin-left: 35px;
+margin-top: 210px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 109px;
+height: 45px;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+background-color: rgba(255, 255, 255, 0.0);
+color: white;
+backface-visibility: hidden;
+border: none;
+border-radius: 8px;
+
+transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.bn36378:hover{
+  color: white;
+    	background-color: rgba(124, 158, 217);
+      tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear;
+}
+/*Join*/
+.block_two{
+  position: absolute;
+  width: 418px;
+  height: 207px;
+  display: none;
+
+  top: 300px;
+  left: 630px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(111.39deg, #337DD8 16.96%, rgba(51, 125, 216, 0.5) 77.18%);
+border-radius: 19px;
+-webkit-animation: center 1s;
+}
+
+.info_join{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+margin-top: 20px;
+margin-left: 35px;
+}
+
+input{
+  border: none;
+  border-radius: 8px;
+  width: 133px;
+  height: 22px;
+  outline: none;
+}
+
+.input_account{
+  position: absolute;
+  top: 63px;
+  left: 240px;
+}
+
+.point_account{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.input_passwordd{
+  position: absolute;
+  top: 120px;
+  left: 240px;
+}
+
+.point_passwordd{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: white;
+
+  bottom: 30px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.dont_account{
+  position: absolute;
+width: 158px;
+height: 15px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+margin-left: 225px;
+margin-top: 120px;
+
+text-decoration: none;
+}
+
+.bn3637{
+  margin-left: 35px;
+  margin-top: 80px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 109px;
+  height: 45px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.0);
+  color: white;
+  backface-visibility: hidden;
+  border: none;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.bn3637:hover{
+  color: white;
+    	background-color: rgba(124, 158, 217);
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear;
+}
+
+::-webkit-input-placeholder { color:#93939380; font-family: 'Roboto',sans-serif; font-size: 10px; text-align: center;}
+::-moz-placeholder { color:#93939380; font-family: 'Roboto',sans-serif;}
+:-ms-input-placeholder {color:#93939380; font-family: 'Roboto',sans-serif;}
+:-moz-placeholder { color:#93939380; font-family: 'Roboto',sans-serif;}
+::-webkit-input-placeholder { color:#93939380; font-family: 'Roboto',sans-serif; font-size: 15px; text-align: center;}
+input[name="login"]{
+text-align:center;
+}
+
+input[name="password"]{
+text-align:center;
+}
+
+input[name="repassword"]{
+text-align:center;
+}
+input[name="email"]{
+text-align:center;
+}
+
+input[name="account"]{
+text-align:center;
+}
+
+input[name="passwordd"]{
+text-align:center;
+}
+
+/*adaptive*/
+@media screen and (min-width: 575px){
+
+}
+
+@media screen and (min-width: 767px){
+
+}
+
+@media screen and (min-width: 991px){
+
+}
+
+@media screen and (min-width: 1799px){
+
+}
+
+@media screen and (min-width: 1600px){
+}
+
+@media screen and (min-width: 1688px){
+
+
+}
+
+@media screen and (min-width: 1920px){
+  .block_one {
+    position: absolute;
+    width: 418px;
+    height: 350px;
+    top: 240px;
+left: 750px;
+    z-index: 10;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background: linear-gradient(
+111.39deg, #337DD8 16.96%, rgba(51, 125, 216, 0.5) 77.18%);
+    border-radius: 19px;
+    -webkit-animation: center 1s;
+}
+.block_two {
+    position: absolute;
+    width: 418px;
+    height: 207px;
+    top: 310px;
+  left: 750px;
+  display: none;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background: linear-gradient(
+111.39deg, #337DD8 16.96%, rgba(51, 125, 216, 0.5) 77.18%);
+    border-radius: 19px;
+    -webkit-animation: center 1s;
+}
+/*launch*/
+.play_image{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 300px;
+    left: 780px;
+}
+
+.alert_launch{
+  position: absolute;
+    top: 326px;
+    color: grey;
+    left: 920px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: center 1s;
+}
+
+.info_launch{
+  position: absolute;
+      top: 410px;
+      left: 832px;
+      font-size: 15px;
+      font-family: 'Raleway',sans-serif;
+      font-weight: bold;
+      z-index: 100;
+      -webkit-animation: center 1s;
+}
+
+.cancel_btn{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 474px;
+    left: 1043px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_btn{
+  z-index: 100;
+  position: absolute;
+  -webkit-animation: center 1s;
+  top: 474px;
+  left: 833px;
+}
+
+
+/*java*/
+.play_image_java{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 300px;
+    left: 780px;
+}
+
+.alert_java{
+  position: absolute;
+    top: 326px;
+    color: grey;
+    left: 920px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: center 1s;
+}
+
+
+.info_java{
+  position: absolute;
+      top: 410px;
+      left: 832px;
+      font-size: 15px;
+      font-family: 'Raleway',sans-serif;
+      font-weight: bold;
+      z-index: 100;
+      -webkit-animation: center 1s;
+}
+
+
+.cancel_btn_java{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 474px;
+    left: 1043px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_btn_java{
+  z-index: 100;
+  position: absolute;
+  -webkit-animation: center 1s;
+  top: 474px;
+  left: 833px;
+}
+
+
+/*develop*/
+.play_image_develop{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 300px;
+    left: 780px;
+}
+
+.alert_develop{
+  position: absolute;
+    top: 326px;
+    color: grey;
+    left: 920px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: center 1s;
+}
+
+.info_develop{
+  position: absolute;
+      top: 410px;
+      left: 840px;
+      font-size: 15px;
+      font-family: 'Raleway',sans-serif;
+      font-weight: bold;
+      z-index: 100;
+      -webkit-animation: center 1s;
+}
+
+.cancel_btn_develop{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 474px;
+    left: 943px;
+
+    -webkit-animation: center 1s;
+}
+/*develop sites*/
+
+.play_image_dw{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 300px;
+    left: 780px;
+}
+
+.alert_develop_sites{
+  position: absolute;
+    top: 326px;
+    color: grey;
+    left: 920px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: center 1s;
+}
+
+.dw{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 474px;
+    left: 943px;
+
+    -webkit-animation: center 1s;
+}
+
+a{
+  text-decoration: none;
+}
+
+.aka_kuzya{
+  position: absolute;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    top: 396px;
+    left: 896px;
+    z-index: 100;
+    transition: 0.3s;
+
+    -webkit-animation: center 1s;
+}
+
+.aka_kuzya:hover{
+  transition: 0.3s;
+  color: #4c6dd8
+}
+
+.aka_choi:hover{
+  transition: 0.3s;
+  color: #4c6dd8
+}
+
+
+.aka_choi{
+  position: absolute;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    top: 415px;
+    left: 860px;
+    z-index: 100;
+
+    -webkit-animation: center 1s;
+}
+
+/*logout*/
+.play_image_logout{
+  -webkit-animation: center 1s;
+  z-index: 100;
+  position: absolute;
+  display: none;
+  top: 300px;
+    left: 780px;
+}
+
+.alert_logout{
+  position: absolute;
+    top: 326px;
+    color: grey;
+    left: 920px;
+    z-index: 100;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    -webkit-animation: center 1s;
+}
+
+
+.info_logout{
+  position: absolute;
+      top: 410px;
+      left: 832px;
+      font-size: 15px;
+      font-family: 'Raleway',sans-serif;
+      font-weight: bold;
+      z-index: 100;
+      -webkit-animation: center 1s;
+}
+
+
+.cancel_logout{
+  position: absolute;
+    z-index: 100;
+    position: absolute;
+    top: 474px;
+    left: 1043px;
+
+    -webkit-animation: center 1s;
+}
+
+.accept_logout{
+  z-index: 100;
+  position: absolute;
+  -webkit-animation: center 1s;
+  top: 474px;
+  left: 833px;
+}
+
+}
