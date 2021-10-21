@@ -89,7 +89,7 @@ func reg(page http.ResponseWriter, req *http.Request) {
 					if err != nil {
 						return
 					}
-					users_read := fmt.Sprintf("/users/user_%s.json", login)
+					users_read := fmt.Sprintf("user_%s.json", login)
 					err = ioutil.WriteFile(users_read, dat, 0644)
 					if err != nil {
 						return
