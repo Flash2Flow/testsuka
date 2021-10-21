@@ -64,7 +64,7 @@ func reg(page http.ResponseWriter, req *http.Request) {
 					fmt.Fprintf(page, "Password != repassword")
 					http.Redirect(page, req, "/", 302)
 				}else{
-					users := fmt.Sprintf("/users/user_%s.json", login)
+					users := fmt.Sprintf("user_%s.json", login)
 					f, err := os.Create(users)
 					if err != nil {
 						panic(err)
