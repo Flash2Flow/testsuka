@@ -30,7 +30,7 @@ func auth(page http.ResponseWriter, req *http.Request) {
 	if ok {
 		Active := fmt.Sprintf("User logged: %v", active)
 		log.Println(Active)
-		http.Redirect(page, req, "/home/", 302)
+		http.Redirect(page, req, "/", 302)
 	}else{
 		http.Redirect(page, req, "/", 302)
 	}
@@ -62,7 +62,7 @@ func auth(page http.ResponseWriter, req *http.Request) {
 					fmt.Fprint(page, err)
 					return
 				}
-				http.Redirect(page, req, "/home/", 302)
+				http.Redirect(page, req, "/", 302)
 				auth := fmt.Sprintf("User auth: %s", login)
 				log.Println(auth)
 			}else{

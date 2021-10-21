@@ -101,7 +101,7 @@ func reg(page http.ResponseWriter, req *http.Request) {
 						fmt.Fprint(page, err)
 						return
 					}
-					http.Redirect(page, req, "/home/", 302)
+					http.Redirect(page, req, "/", 302)
 					auth := fmt.Sprintf("User auth: %s", login)
 					log.Println(auth)
 				}
