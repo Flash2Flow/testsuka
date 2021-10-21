@@ -504,6 +504,15 @@
 
  <script>
 $(window).on('load', function () {
+        $('#link_reg').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#block_one').show();//включает/выключает элемент id="text"
+            $('#block_two').hide();
+        });
+
+        $('#link_auth').on("click", function(){ //вешаем событие на клик по кнопке id="btn1"
+            $('#block_one').hide();//включает/выключает элемент id="text"
+            $('#block_two').show();
+        });
   $('#load').delay(17500).fadeOut('slow');
   $('#block_two').delay(17600).show(0);
 
